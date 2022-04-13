@@ -1,0 +1,62 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 15vw;
+  border-radius: 1.5em;
+  padding: 2em;
+  border: solid #BEBEBE 0.2vw;
+  box-shadow: lightgray 1em 1em;
+  flex-wrap: wrap;
+  margin: 1em;
+  h2 {
+      font-size: 32px;
+      margin-bottom: 0.5em;
+  }
+  p {
+      margin: 0;
+      color: gray;
+      font-size: 16px
+  }
+  img {
+      width: 5vw;
+  }
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 55vw;
+    img{
+      width: 15vw;
+    }
+  }
+}
+
+@media (min-width: 500px){
+  .container{
+    width: 35vw;
+    img{
+      width: 7.5vw;
+    }
+  }
+}
+
+@media (min-width: 700px){
+  .container{
+    width: 25vw;
+    img{
+      width: 7.5vw;
+    }
+  }
+}
+
+@media (min-width: 1000px){
+  .container{
+    width: 15vw;
+    img{
+      width: 5vw;
+    }
+  }
+}
