@@ -82,7 +82,7 @@ function App() {
             </div>
         </section>
         <footer className="footer-container">
-          <p>Moon Bank LLC 2017 - 2021© made by FlygonSA</p>
+          <p>Moon Bank LLC 2017 - 2021© made by Santiago Vrancovich</p>
         </footer>
     </div>
   )
